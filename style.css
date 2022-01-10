@@ -1,102 +1,11 @@
 
 
-.page {
-    max-width: 1280px;
-    min-width: 320px;
-    background-color: #2A2C2F;
-    font-family: 'Inter', sans-serif;
-    color: #FFFFFF;
-}
-.header {
-  width: 928px;  
-  height: 52px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 28px 0 48px 0;
-}
-.header__logo {
-    width: 176px;  
-  height: 52px;  
-}
-.header__lang-links {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    
-}
-.header__lang-link {
-    width: 30px;
-    height: 28px;
-    list-style: none;
-    text-decoration: none;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #ffffff; 
-margin-right: 18px;
-
-
-}
-.header__lang-link:nth-child(2) {
-    margin-right: 0;   
-}
-.header__lang-link_ru {
-}
-
-}
-.header__lang-link_en {
-}
 
 
 
-.lead {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.lead__title {
-  max-width: 720px; 
- margin: 0 auto;
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 100px;
-text-align: center;
 
 
-}
-.lead__subtitle {
-max-width: 640px;
-margin: 32px auto 0 auto;
-font-style: normal;
-font-weight: normal;
-font-size: 30px;
-line-height: 36px;
-/* or 120% */
-
-text-align: center;
 
 
-}
-.lead__image-container {
-    max-width: 984px;
-    margin: 56px auto 0 auto;
-}
-.lead__image {
-    width: 100%;
 
-}
-.lead__caption {
 
-font-style: normal;
-font-weight: normal;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height, or 140% */
-
-letter-spacing: 1.5px;
-text-transform: uppercase;
-}

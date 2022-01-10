@@ -1,0 +1,23 @@
+.header__lang-links {
+  width: 30px;
+  height: 28px;
+  list-style: none;
+  /* text-decoration: none; */
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  margin-right: 18px;
+}
+.header__lang-links:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-links {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
