@@ -1,19 +1,22 @@
 .lead__image-container {
-  /* max-width: 100%; */
+  max-width: 984px;
   margin: 64px auto 0 auto;
 }
 @media screen and (max-width: 1024px) {
   .lead__image-container {
     margin: 56px auto 0 auto;
+    min-width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
   .lead__image-container {
     margin: 56px auto 0 auto;
+    min-width: 100%;
   }
 }
 @media screen and (max-width: 320px) {
   .lead__image-container {
     margin: 40px auto 0 auto;
+    min-width: 100%;
   }
 }

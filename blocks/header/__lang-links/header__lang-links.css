@@ -1,11 +1,9 @@
 .header__lang-links {
-  width: 30px;
-  height: 28px;
+  
   list-style: none;
   /* text-decoration: none; */
 
-  font-style: normal;
-  font-weight: normal;
+
   font-size: 24px;
   line-height: 28px;
 
