@@ -11,5 +11,6 @@
 - БЭМ
 
 **GitHub Pages** 
-https://lulia24.github.io/russian-travel/
+- [Ссылка на GitHub Pages](https://lulia24.github.io/russian-travel/)
+
 
