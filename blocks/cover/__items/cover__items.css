@@ -8,14 +8,11 @@
   position: relative;
   text-decoration: none;
   color: #ffffff;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
-
 .cover__items::before {
   content: "";
   position: absolute;
@@ -26,12 +23,11 @@
   background: #2a2c2f;
   opacity: 0.3;
   z-index: 0;
+  transition: opacity .3s;
 }
-
 .cover__items:hover::before {
   opacity: 0.8;
 }
-
 @media screen and (max-width: 1279px) {
   .cover__items {
     min-height: 640px;
