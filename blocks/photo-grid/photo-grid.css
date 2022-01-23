@@ -1,6 +1,5 @@
 .photo-grid {
   max-width: 1184px;
-  min-height: 671px;
   padding: 92px 0 0 0;
   display: grid;
   justify-content: center;
@@ -11,7 +10,6 @@
 }
 @media screen and (max-width: 1279px) {
   .photo-grid {
-    padding: 92px 0 0 0;
     grid-template: repeat(4, 225px) / repeat(3, 300px);
     gap: 14px;
     max-width: 928px;
